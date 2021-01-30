@@ -2,8 +2,8 @@
 
 Link Belajar : [Here](https://www.dicoding.com/academies/163)  
 
-> Cara Run Project  
-> - **npm run build** (masa produksi, web sudah siap di deploy)
-> - **npm run start-dev** (mode development masa pengembangan)  
+Cara Run Project  
+- **npm run build** (masa produksi, web sudah siap di deploy)
+- **npm run start-dev** (mode development masa pengembangan)  
 
 Saya tidak melakukan perubahan code setelah lulus course.  
