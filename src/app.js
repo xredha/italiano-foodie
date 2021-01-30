@@ -1,0 +1,10 @@
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min.js';
+import "./style/style.css";
+import "./script/component/navbar.js";
+import "./script/component/slider.js";
+import "./script/component/welcome.js";
+import "./script/component/popular.js";
+import "./script/component/contact.js";
+import "./script/component/footer.js";
+import "./script/my-js/main.js";

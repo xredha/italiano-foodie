@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+custom-slider h3,
+custom-slider h5,
+custom-welcome h3,
+custom-popular h3,
+custom-contact h3 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+custom-slider img {
+  filter: brightness(80%);
+}
+
+.brand-logo {
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+
+.welcome,
+.popular,
+footer {
+  padding: 20px 0;
+}
+
+.welcome p {
+  text-indent: 10%;
+  text-align: justify;
+}
+
+.white-line {
+  border: 3px solid white;
+  margin: 30px 30%;
+}
+
+.black-line {
+  border: 3px solid black;
+  margin: 30px 30%;
+}
+
+.wrapper {
+  margin-left: 3%;
+}
+
+.popular .divider {
+  margin: 10px;
+}
+
+#dehaze, #apps:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.main-content {
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
